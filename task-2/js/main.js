@@ -3,7 +3,7 @@ function checkPalindrome(stringEntry) {
     const array = arrayNoFormat.split('');
     const arrayRevesed = array.reverse();
     const arrayJoined = arrayRevesed.join('')
-    if (arrayNoFormat == arrayJoined || arrayJoined == arrayNoFormat) {
+    if (arrayNoFormat == arrayJoined) {
         console.log('is palindrome')
     } else {
         console.log('in not palindrome')
