@@ -1,3 +1,5 @@
+// 10. Write a function which returns the n rows by n columns identity matrix.
+
 function matrix(n) {
     let i;
     let j;

@@ -1,3 +1,6 @@
+// 2. Write a function that checks whether a passed string is palindrome or not?
+// A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
+
 function checkPalindrome(stringEntry) {
     const arrayNoFormat = stringEntry.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '');
     const array = arrayNoFormat.split('');
