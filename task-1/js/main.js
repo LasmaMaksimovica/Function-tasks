@@ -3,6 +3,6 @@
 // Expected Output : 34223
 
 function reversedNumber(number) {
-    return number.split('').reverse().join('');
+    return number.toString().split('').reverse().join('');
 }
-console.log(reversedNumber('32243'))
+console.log(reversedNumber(32243))
